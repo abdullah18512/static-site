@@ -1,0 +1,28 @@
+#button-green:hover {
+    background-color: #B8E830 !important;
+    transition: all 0.3s ease-in-out;
+}
+
+#link-white a:hover {
+    color: #CAFF33 !important;
+    transition: all 0.3s ease-in-out;
+    /* border-radius: 1px solid #262626;
+    background-color: #262626; */
+
+}
+
+/* #grey-signup-btn a:hover {
+    background: #393939;
+    transition: all 0.3s ease-in-out;
+}  */
+.signup{
+    color: white;
+    background-color: #262626;
+}
+
+.signup:hover{
+    color: #CAFF33;
+    background-color: hsl(0, 0%, 20%);
+    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-out;
+}

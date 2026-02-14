@@ -1,0 +1,526 @@
+/* font lexend */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --bg-grey: #191919;
+    --bg-darkgrey: #1A1A1A;
+    --bg-greenyellow: #CAFF33;
+    --bg-dullgreen: #22251B;
+    --bg-light-grey: #1C1C1C;
+    --bg-solid-grey: #262626;
+    --br-grey: #262626;
+    --br-greenyellow: #CAFF33;
+    --text-grey30: #4C4C4D;
+    --text-grey: #1c1c1c;
+    --text-grey2: #B3B3B3;
+    --text-greenyellow: #caff33;
+    --text-neongreen: #D1FF4D;
+    --line: #777777;
+    --line-greenyellow: #caff33;
+}
+
+* {
+    font-family: "Libre Franklin", sans-serif;
+}
+
+body {
+    background-color: var(--bg-grey) !important;
+}
+
+
+/* Borders,         Border Modifications */
+.br-grey {
+    border: 1px solid var(--br-grey) !important;
+}
+
+.br-greenyellow {
+    border-left: 1px solid var(--br-greenyellow) !important;
+}
+
+.br-16 {
+    border-radius: 16px;
+}
+
+
+.gradient-border {
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    background: #1a1a1a;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.gradient-border::before {
+    content: "";
+    position: absolute;
+    top: -0.87px;
+    left: -0.87px;
+    right: -0.87px;
+    bottom: -0.87px;
+    border-radius: 10.87px;
+    background: linear-gradient(214.24deg, rgba(202, 255, 51, 0.2) 0% rgba(202, 255, 51, 0.2)11.24%), linear-gradient(214.24deg, rgba(202, 255, 51, 0.2) 01.73%, rgba(202, 255, 51, 0.2) 99.95%), linear-gradient(0deg, #262626, #262626);
+
+}
+
+/* line  */
+.line {
+    display: flex;
+    flex: 1;
+    border: 0px;
+    height: 1px;
+    background: #ccc;
+}
+
+.line-greenyellow-start {
+    border-left: 1px solid var(--br-greenyellow) !important;
+}
+
+.line-greenyellow-end {
+    border-right: 1px solid var(--br-greenyellow) !important;
+}
+
+/* BG Colours,      Background Colors */
+.bg-solidgrey {
+    background-color: var(--bg-solid-grey) !important;
+}
+
+.bg-grey {
+    background-color: var(--bg-grey) !important;
+}
+
+.bg-darkgrey {
+    background-color: var(--bg-darkgrey) !important;
+}
+
+.bg-light-grey {
+    background-color: var(--bg-light-grey) !important;
+}
+
+
+.bg-greenyellow {
+    background-color: var(--bg-greenyellow) !important;
+}
+
+.bg-dullgreen {
+    background-color: var(--bg-dullgreen);
+}
+
+
+/* Text,            Fonts Modification  */
+.text-grey {
+    color: var(--text-grey) !important;
+}
+
+.text-grey30 {
+    color: var(--text-grey30);
+}
+
+.text-greenyellow {
+    color: var(--text-greenyellow);
+}
+
+.text-neongreen {
+    color: var(--text-neongreen);
+}
+
+.text-grey2 {
+    color: var(--text-grey2);
+}
+
+/* Font Modification */
+.font-lexend {
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-15 {
+    font-style: 15px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-36 {
+    font-size: 36px;
+}
+
+.fs-40{
+    font-size: 40px;
+}
+
+.fs-48 {
+    font-size: 48px;
+}
+
+.fs-58 {
+    font-size: 58px;
+}
+
+/* card designing */
+
+
+
+.text-card {
+    font-family: Lexend;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 15.61px;
+    /* leading-trim: NONE; */
+    line-height: 150%;
+    letter-spacing: 0%;
+
+}
+
+.card-name {
+    font-family: Lexend;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 17.34px;
+    /* leading-trim: NONE; */
+    line-height: 150%;
+    letter-spacing: 0%;
+
+}
+
+.card-deck {
+    height: 500px;
+}
+
+.card-container-size {
+    height: 75px;
+}
+
+.w-425 {
+    width: 425px;
+}
+
+.w-600 {
+    width: 600px;
+}
+
+.h-92 {
+    height: 92px;
+}
+
+.h-96 {
+    height: 96px;
+}
+
+.w-card1 {}
+
+.h-470 {
+    height: 470px;
+}
+
+.h-575 {
+    height: 575px;
+}
+
+
+.h-300 {
+    height: 300px;
+
+}
+
+.h-40 {
+    height: 40px;
+}
+
+.w-375 {
+    width: 375px;
+}
+
+.w-355 {
+    width: 355px;
+}
+
+.w-325 {
+    width: 325px;
+}
+
+.w-300 {
+    width: 300px !important;
+}
+
+
+.top-45 {
+    top: 45px;
+}
+
+.top-90 {
+    top: 90px;
+}
+
+.opacity-50 {
+    opacity: 50%;
+}
+
+.opacity-25 {
+    opacity: 20%;
+}
+
+
+/* z-index layers */
+.z-index-p5 {
+    z-index: 5;
+}
+
+.z-index-p4 {
+    z-index: 4;
+}
+
+.z-index-p3 {
+    z-index: 3;
+}
+
+.z-index-p2 {
+    z-index: 2;
+}
+
+.z-index-p1 {
+    z-index: 1;
+}
+
+.z-index-p0 {
+    z-index: 0;
+}
+
+.z-index-n1 {
+    z-index: -1;
+}
+
+.z-index-n2 {
+    z-index: -2;
+}
+
+.z-index-n3 {
+    z-index: -3;
+}
+
+.z-index-n4 {
+    z-index: -4;
+}
+
+.z-index-n5 {
+    z-index: -5;
+}
+
+
+/* arrow size */
+.arrow {
+    width: 417.9483337402344;
+    height: 382.72662353515625;
+    /* angle: 0 deg; */
+    opacity: 1;
+    transform: translateX(50px);
+
+}
+
+
+/* Card money exchange */
+.money-exchange {
+    margin-top: 200px;
+    font-size: 18px;
+    font-weight: medium;
+}
+
+/* card margin */
+.m-left {
+    margin-left: 125px;
+}
+
+/* exchange button styling */
+
+.px-150 {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.testimonial-card {
+    height: 250px !important;
+    width: 400px;
+    background-color: #191919;
+}
+
+.testimonial-card img {
+    height: 90px;
+    width: 90px;
+}
+
+.testimonial-card h5 {
+    font-weight: 500;
+}
+
+.sec2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.sec3 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.carddeck {
+    margin-top: 50px;
+}
+
+.carddeck img {
+    height: 375px;
+}
+
+.link-arrow {
+    height: 18px;
+}
+
+.card-1 {
+    height: 250px;
+    width: 600px;
+}
+
+.text-align-c {
+    text-align: center;
+}
+
+
+
+/* custom css */
+
+.centered-benefit-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.our-benefits-card {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 50px;
+}
+
+
+/* custom hero section css */
+.hero-overlap-img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+    position: relative;
+    top: 50px;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.hero-container {
+    padding-bottom: 50px;
+    position: relative;
+}
+
+
+
+.security-img {
+    transform: translateX(440px);
+}
+
+.hero-security {
+    min-height: 550px !important;
+    min-width: auto;
+}
+
+/* 
+.hero-security{
+    min-height: 400px;
+} */
+
+.hero-img img {
+    /* min-height: 470px; */
+    max-height: 465px;
+    transform: translateX(px);
+}
+
+.hero-text {
+    width: 55% !important;
+}
+
+/* .protection-section img{
+    max-width: 550px !important;
+    min-width: auto;
+} */
+
+.indent-2 {
+    text-indent: 2rem;
+}
+
+.card-height {
+    max-height: auto;
+}
+
+.card-bg {
+    max-width: 570px;
+    width: auto;
+    height: 260px;
+}
+
+.faqs {
+    margin-top: 25%;
+
+}
+
+.image2 {
+    height: 525px;
+    width: auto;
+}
+
+.asfalt {
+    width: 600px;
+    min-height: 595px;
+    max-height: 621px;
+    overflow: hidden;
+}
+.asfalt-cta img{
+    min-width: 1300px !important;
+    height: 290px;
+    opacity: 50%;
+}
+
+.bg-pattern {
+    width: 600px;
+    min-height: 595px;
+    max-height: 610px;
+    overflow: hidden;
+}
+
+.image {
+    border: 0.5px solid var(--br-grey) !important;
+    max-height: 600px;
+}
+
+.m-section {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}

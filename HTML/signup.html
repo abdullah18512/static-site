@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- hoverning animation css  -->
+    <link rel="stylesheet" href="/Capstone Project-1/CSS/hovering-animations.css">
+
+    <!-- custom/ vanila css -->
+    <link rel="stylesheet" href="/Capstone Project-1/CSS/home.css">
+
+
+    <!-- bootstrap -->
+
+    <!-- cdn css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- cdn js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <script src="/JS/index.js"></script>
+
+    <div class="sections container">
+        <!-- header section  -->
+        <div class="d-flex justify-content-between container mt-3 br-grey rounded-pill py-3 px-3 bg-light-grey w-auto">
+            <a href="/Capstone Project-1/HTML/home.html">
+                <img src="/Capstone Project-1/assets/Logo.svg" alt="logo">
+            </a>
+
+            <ul class="d-flex gap-4 list-unstyled align-items-center my-auto ">
+                <li id="link-white" class="text-white fs-18 fw-normal"> <a class="text-white text-decoration-none"
+                        href="/Capstone Project-1/HTML/home.html">Home</a></li>
+                <li id="link-white" class="text-white fs-18 fw-normal"> <a class="text-white text-decoration-none"
+                        href="/Capstone Project-1/HTML/carrers.html">Carrers</a></li>
+                <li id="link-white" class="text-white fs-18 fw-normal"> <a class="text-white text-decoration-none"
+                        href="/Capstone Project-1/HTML/about.html">About</a></li>
+                <li id="link-white" class="text-white fs-18 fw-normal"> <a class="text-white text-decoration-none"
+                        href="/Capstone Project-1/HTML/security.html">Security</a>
+                </li>
+            </ul>
+
+            <div>
+                <button id="link-white" class="signup-btn border-0 bg-transparent text-white fs-18 fw-normal"> <a
+                        class="text-white text-decoration-none" href="/Capstone Project-1/HTML/signup.html">Sign
+                        up</a></button>
+                <button id="button-green"
+                    class="login-btn border-0 rounded-pill py-2 px-3 text-grey bg-greenyellow fs-18 fw-normal"><a
+                        class="text-grey text-decoration-none"
+                        href="/Capstone Project-1/HTML/login.html">Login</a></button>
+            </div>
+        </div>
+
+        <!-- login card -->
+        <div class="d-flex justify-content-center mb-5">
+            <section class=" bg-light-grey w-auto mt-4 rounded-4">
+                <div class="d-flex justify-content-between row p-5">
+                    <div class="login-heading  ">
+                        <h1 class="  d-flex justify-content-center fs-48 fw-bolder text-greenyellow">Sign Up</h1>
+                        <p class="  d-flex justify-content-center fs-18 fw-normal text-grey2">Join our community today!
+                            Create an account to unlock exclusive features and personalized experiences.</p>
+                    </div>
+
+                    <div class="login-details-field mt-5">
+                        <div class="d-flex justify-content-center row gap-3">
+                            <form class=" d-flex justify-content-center gap-4">
+                                <label for="email" class="text-grey2 "></label>
+                                <input class="rounded-pill p-1 ps-4 pt-2 pe-5  bg-darkgrey border-0" placeholder="Enter first name"
+                                    type="name" id="name" name="first_name" required>
+
+                                <label for="password" class="text-grey2"></label>
+                                <input class="rounded-pill p-1 ps-4 pt-2 pe-5  bg-darkgrey border-0" placeholder="Enter last name"
+                                    type="name" id="name" name="last_name" required>
+
+                            </form>
+
+                            <form class=" d-flex justify-content-center gap-4">
+                                <label for="email" class="text-grey2 "></label>
+                                <input class="rounded-pill p-1 ps-4 pt-2 pe-5  bg-darkgrey border-0" placeholder="Email"
+                                    type="email" id="email" name="email" required>
+
+                                <label for="password" class="text-grey2"></label>
+                                <input class="rounded-pill p-1 ps-4 pt-2 pe-5  bg-darkgrey border-0" placeholder="Password"
+                                    type="password" id="password" name="password" required>
+
+                            </form>
+
+                        </div>
+                        <a class="d-flex justify-content-center mt-4 text-white fw-normal fs-13" href="/Capstone Project-1/HTML/login.html">Already have an acccount?</a>
+
+                        <div class="d-flex align-items-center justify-content-center mt-4 row ">
+                            <div class="w-300 d-flex justify-content-center row gap-3">
+                                <button id="button-green" class=" login rounded-pill bg-greenyellow p-2 border-0"><a
+                                        class="text-grey text-decoration-none" href="#">Login</a></button>
+                                <button id="grey-signup-btn" class="signup rounded-pill p-2 border-0">Sign Up</button>
+                            </div>
+                            <div class="d-flex flex-column align-items-center gap-3 text-white mt-3">
+                                <div class="w-300 d-flex align-items-center justify-content-between gap-3">
+                                    <hr class="line">
+                                    <span>Or Continue with</span>
+                                    <hr class="line">
+                                </div>
+
+                                <div class="d-flex align-items-center justify-content-center gap-3 ">
+                                    <img class="w-25" src="/Capstone Project-1/assets/google.svg" alt="">
+                                    <img class="w-25" src="/Capstone Project-1/assets/withfacebook.svg" alt="">
+                                    <img class="w-25" src="/Capstone Project-1/assets/appleid.svg" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </section>
+        </div>
+
+        <section class="sec6 w-auto">
+            <div class="mt-5 mb-5">
+                <div class="row our-testimonials">
+                    <div class="col-6 ">
+
+                        <div class="text-white ">
+                            <h2 class="text-white fs-48 fw-bold">Our <span class="text-greenyellow">Testimonials</span>
+                            </h2>
+                            <p class="fs-18 mt-4 text-grey2">Discover how YourBank has transformed lives with innovative
+                                digital solutions and personalized customer service. See why our clients trust us for a
+                                secure and prosperous financial journey</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 ">
+
+                        <div class="m-5 ms-5 me-0">
+                            <div
+                                class="d-flex flex-row-reverse ms-5 me-0 mt-4 br-grey rounded-pill py-1 px-2 w-325 bg-light-grey h-auto ">
+
+                                <div class="d-flex">
+                                    <button id="button-green"
+                                        class="text-grey bg-greenyellow rounded-pill border-0 px-3 py-2 fs-18 m-1 fw-normal">For
+                                        Individuals</button>
+                                    <button
+                                        class="text-white bg-light-grey rounded-pill border-0 px-3 py-3 fs-18 fw-normal ">For
+                                        Business</button>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex mt-5 gap-4 align-items-center justify-content-center w-auto">
+                    <div class="fs-18 fw-normal text-white w-50 d-flex flex-column w-auto">
+                        <img src="/Capstone Project-1/assets/quote.svg" alt="">
+
+                        <div class="">
+
+                            <p class="d-flex flex-column justify-content-center text-align-c">I recently started my own
+                                business, and YourBank has been instrumental in helping me set up my business accounts
+                                and secure the financing I needed. Their expert guidance and tailored solutions have
+                                been invaluable.</p>
+
+                        </div>
+                        <h6 class="d-flex justify-content-center text-greenyellow">John D</h6>
+                    </div>
+                    <div class="fs-18 fw-normal text-white w-50 d-flex flex-column w-auto">
+                        <img src="/Capstone Project-1/assets/quote.svg" alt="">
+
+                        <p class="d-flex flex-column justify-content-center text-align-c">I recently started my own
+                            business, and YourBank has been instrumental in helping me set up my business accounts and
+                            secure the financing I needed. Their expert guidance and tailored solutions have been
+                            invaluable.</p>
+
+                        <h6 class="d-flex justify-content-center text-greenyellow">John D</h6>
+                    </div>
+                    <div class="fs-18 fw-normal text-white w-50 d-flex flex-column w-auto">
+                        <img src="/Capstone Project-1/assets/quote.svg" alt="">
+
+                        <p class="d-flex flex-column justify-content-center text-align-c">I recently started my own
+                            business, and YourBank has been instrumental in helping me set up my business accounts and
+                            secure the financing I needed. Their expert guidance and tailored solutions have been
+                            invaluable.</p>
+
+                        <h6 class="d-flex justify-content-center text-greenyellow">John D</h6>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Page1, section7 -->
+        <section class="cta-sec container h-300 w-auto d-flex justify-content-center opacity-75">
+            <div class="d-flex justify-content-center h-300 ">
+                <img src="/Capstone Project-1/assets/CTA.png" alt="">
+            </div>
+        </section>
+    </div>
+
+
+    <div class="bg-light-grey">
+
+        <div class="bg-light-grey">
+            <div class="h-50 d-flex flex-column justify-content-center mt-5 p-5">
+                <img class="h-40" src="/Capstone Project-1/assets/Logo.svg" alt="">
+
+                <ul class="text-white list-unstyled d-flex justify-content-center gap-4 mt-5">
+                    <li>Home</li>
+                    <li>Carrers</li>
+                    <li>About</li>
+                    <li>Security</li>
+                </ul>
+            </div>
+
+            <div class="d-flex justify-content-center mb-3 pb-5 pt-5  border-1 br-grey">
+                <ul class="d-flex text-white gap-5 list-unstyled">
+                    <li><img src="/Capstone Project-1/assets/mail.svg" alt=""> mail.123@gmail.com</li>
+
+                    <li><img src="/Capstone Project-1/assets/phone.svg" alt="">+92 000 0000000</li>
+
+                    <li><img src="/Capstone Project-1/assets/locationpin.svg" alt="">Somewhere in the world</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class=" d-flex flex-column bg-grey justify-content-between text-white ">
+
+            <div class=" bg-grey rounded-pill d-flex justify-content-between p-3 m-2 border-1">
+
+                <ul class="d-flex gap-5 list-unstyled ms-5">
+                    <li><img src="/Capstone Project-1/assets/facebook.svg" alt=""></li>
+                    <li><img src="/Capstone Project-1/assets/twitter.svg" alt=""></li>
+                    <li><img src="/Capstone Project-1/assets/linkedin.svg" alt=""></li>
+                </ul>
+
+
+                <h6>YourBank All Rights Reserved</h6>
+                <h6>Privacy Policy | Terms of Service </h6>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/index.js"></script>
+</body>
+
+</html>
